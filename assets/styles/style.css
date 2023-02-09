@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+.wrapper{
+    width:100vw;
+}
+
+.newspaper{
+    width:100%;
+}
+
+.page1{
+    /* width:100%; */
+    padding:5px;
+    /* display:flex; */
+}
+
+.main-header{
+    /* width:100%; */
+    padding:5px;
+}
+
+.main-header-info{
+    width:100%;
+    border-bottom: 1px black solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.location{
+    /* width:100%; */
+    display:flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 2.5vh;
+}
+
+.page{
+    display:flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 2.5vh;
+}
+
+.date{
+    /* width:100%; */
+    display:flex;
+    justify-content: flex-end;
+    /* font-weight: bold; */
+    font-size: 2.5vh;
+    padding:3px 0;
+}
+
+.main-header-title-box{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.main-header-title{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik 80s Fade', cursive;
+    /* font-weight: bold; */
+    font-size: 15vh;
+}
+
+.main-header-title-content{
+    width: fit-content;
+}
+
+
+.main-header-phase{
+    margin-top: -15px;
+    display:flex;
+    justify-content: flex-end;
+    font-size: 4vh;
+}
+
+.header-bottom-line{
+    margin: 2px 0;
+}
+
+.main-content{
+    width:100%;
+    padding-top:10px;
+    /* display:flex; */
+    border-bottom: 2px solid black;
+    column-count:3;
+    column-fill: balance-all;
+}
+
+.column1, .column2, .column3{
+    padding: 0 5px;
+}
+
+.column1{
+    /* flex-grow:1; */
+    width:42vw;
+    border-right: 3px #cececd solid;
+}
+
+.column2{
+    width:20vw;
+    border-right: 3px #cececd solid;
+}
+
+.column3{
+    width:35vw;
+}
+
+.news-header1{
+    font-size:8vh;
+    font-weight: bolder;
+}
+
+.news-header2{
+    font-size:6vh;
+    font-weight:bold;
+}
+
+.news-header3{
+    font-weight:5vh;
+    font-weight:bold;
+}
+
+.article{
+    width:100%;
+    padding-bottom: 10px;
+    margin-bottom:10px;
+    border-bottom: 1px black solid;
+}
+
+figure{
+    margin:0;
+    margin-bottom:5px;
+}
+
+.article1-img{
+    width:100%;
+}
+
+figcaption{
+    font-size:2vh
+}
+
+.sub-header{
+    font-size:3.5vh;
+    margin-bottom: 5px;
+}
+
+.news-content-1{
+    display:flex;
+    font-size:2.3vh;
+    text-align: justify;
+    /* word-break: break-all; */
+    text-justify: distribute;
+    text-align-last: left;
+}
+
+.news-content-2{
+    font-size:2.3vh;
+    text-align: justify;
+    word-break: break-all;
+    text-justify: distribute;
+    text-align-last: left;
+}
+
+.news-content-col-1, .news-content-col-2{
+    /* width:50%; */
+    padding: 0 5px;
+}
+
+p{
+    margin:0;
+}
+
+.author-name{
+    font-weight: 600;
+}
+
+.author-email{
+    font-size:2vh;
+}
+
+.news-author{
+    margin-bottom: 5px;
+}
+
+.second-para{
+    text-indent:20px;
+}
+
+.footer{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.footer-first{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.previous-link, .next-link{
+    text-decoration: none;
+    width:150px;
+    padding:5px;
+    margin:5px;
+    background-color: #00b1cd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:20px;
+    color:white;
+}
+
+.hidden{
+    display: none;
+}
